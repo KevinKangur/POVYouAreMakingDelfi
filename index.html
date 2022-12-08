@@ -6,38 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Off Brand Delfi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
 </head>
 <body>
     <div class="header-top">
-        <div class="ilm">
-            <li class="nav1"><a href="#">Ilmateade</a></li>
+        <div class="header-content">
+            <div class="ilm">
+                <ul class="C-list">
+                    <i class="fa fa-cloud"></i>
+                    <li class="nav1"><a href="#">Ilmateade</a></li>
+                </ul>
+            </div>
+            <div class="ajaleht">
+                <ul class="C-list">
+                    <li class="nav2"><a href="index.html">Delfi</a></li>
+                    <button class="ajalehed">Ajalehed</button>
+                    <button class="ajakirjad">Ajakirjad</button>
+                </ul>
+            </div>
+            <div class="kontakt">
+                <ul class="C-list">
+                    <li class="nav3"><a href="#">Saada vihje</a></li>
+                    <li class="nav4"><a href="#">Kontakt</a></li>
+                    <li class="nav5"><a href="#">Reklaam</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="ajaleht">
-            <li class="nav2"><a href="index.html">Delfi</a></li>
-            <button class="ajalehed">Ajalehed</button>
-            <button class="ajakirjad">Ajakirjad</button>
-        </div>
-        <div class="kontakt">
-            <li class="nav3"><a href="#">Saada vihje</a></li>
-            <li class="nav4"><a href="#">Kontakt</a></li>
-            <li class="nav5"><a href="#">Reklaam</a></li>
-        </div>
+    </div>
 
         <div class="header">
-            <object data="https://h.delfi.ee/g/l/svg/delfi_ua.svg">
-                <img src="https://h.delfi.ee/g/l/svg/delfi_ua.svg" alt="Delfi">
-            </object>
-            <button class="otherbutton2">RUS</button>
-            <button class="otherbutton">Ärileht</button>
-            <button class="otherbutton">Sport</button>
-            <button class="otherbutton">Kroonika</button>
-            <button class="otherbutton">Naistekas</button>
-            <button class="otherbutton">Eesti päevaleht</button>
-            <button class="otherbutton">Maaleht</button>
-            <button class="otherbutton">Ekspress</button>
-            <button class="telli">Telli</button>
-            <button class="login">Logi sisse</button>
+            <div class="logo">
+                <object data="https://h.delfi.ee/g/l/svg/delfi_ua.svg">
+                    <img src="https://h.delfi.ee/g/l/svg/delfi_ua.svg" alt="Delfi">
+                </object>
+            </div>
+            <div class="buttons">
+                <button class="otherbutton">RUS</button>
+                <button class="otherbutton">Ärileht</button>
+                <button class="otherbutton">Sport</button>
+                <button class="otherbutton">Kroonika</button>
+                <button class="otherbutton">Naistekas</button>
+                <button class="otherbutton">Eesti päevaleht</button>
+                <button class="otherbutton">Maaleht</button>
+                <button class="otherbutton">Ekspress</button>
+            </div>
+            <div class="telli_login">
+                <button class="telli">Telli</button>
+                <button class="login">Logi sisse</button>
+            </div>
             <li class="line"></li>
+            <div class="search">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="burger">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    <div class="articles">
+        <div class="uudis1">
+            <img class="bigger-image" src="https://api.delfi.ee/media-api-image-cropper/v1/852bf620-c4a9-11eb-bc66-719910f04e8e.jpg?noup&w=1264&h=711" alt="#">
+            <h1 class="bigger-text">Senirääkimata lugu: kuidas mõjuagent ja seitse Vene luurajat valmistusid Eestiga "Ukrainat tegema"</h1>
+        </div>
+        <div class="uudis2">
+            <img class="bigger-image" src="https://api.delfi.ee/media-api-image-cropper/v1/4dc1a620-76dd-11ed-9230-914071c9bf48.jpg?noup&w=1264&h=711" alt="#">
+            <h1 class="bigger-text">SÕJARAPORT | Igor Taro: Bahmuti suunal on laipasid nii palju, et nendega saaks põldu väetada</h1>
+        </div>
+    </div>
+    <div class="articles2">
+        <div class="uudis3">
+            <img class="smaller-image" src="https://api.delfi.ee/media-api-image-cropper/v1/0f02a1e0-457e-11ed-b9e4-f3ed8b10da4d.jpg?noup&w=1264&h=711" alt="#">
+            <h1 class="smaller-text">OTSEPILT | Eestisse saabuvad USA üksused. Kui palju tuleb sõdureid ja mis relvad neil kaasas on?</h1>
+        </div>
+        <div class="uudis4">
+            <img class="smaller-image" src="https://api.delfi.ee/media-api-image-cropper/v1/f3626360-76d0-11ed-972b-51e8387e0386.jpg?noup&w=1264&h=711&fx=0.622727&fy=0.317187" alt="#">
+            <h1 class="smaller-text">Soome siseminister: oleme valmis osa Eestis viibivaid Ukraina põgenikke enda juurde võtma</h1>
+        </div>
+        <div class="uudis5">
+            <img class="smaller-image" src="https://api.delfi.ee/media-api-image-cropper/v1/7f79f8d0-7673-11ed-a657-a15c5f5921ad.jpg?noup&w=1264&h=711" alt="#">
+            <h1 class="smaller-text">PORTO FRANCO PROTSESS (4. päev) | Mobiiltelefoni mõistatus: Kuidas suutis kapo lugeda Hillar Tederi poja tekstisõnumeid?</h1>
+        </div>
+        <div class="uudis6">
+            <img class="smaller-image" src="https://api.delfi.ee/media-api-image-cropper/v1/ad148f60-76d9-11ed-9c56-01112c308ed8.jpg?noup&w=1264&h=711&ch=0.8438&cw=1&cx=0&cy=0.0471&r=16:9" alt="#">
+            <h1 class="smaller-text">Soome toll konfiskeeris kaheksa ilmselt Vene omanike luksusjahti </h1>
+        </div>
+    </div>
+    <div class="articles3">
+        <div class="uudis7">
+            <img class="medium-image" src="https://api.delfi.ee/media-api-image-cropper/v1/4580bed0-70aa-11ed-b285-4b0a35e57fa9.jpg?noup&w=882&h=496" alt="#">
+            <h1 class="medium-text">Ohusireenid paika ja inimesed teadlikuks: Eesti elanikkonnakaitse tagamisega on väga kiire</h1>
+        </div>
+        <div class="uudis8">
+            <img class="medium-image" src="https://api.delfi.ee/media-api-image-cropper/v1/e38fd3a0-08da-11ed-947d-734ad0535b4e.jpg?noup&w=882&h=496" alt="#">
+            <h1 class="medium-text">OTSEPILT | Valitsus annab pressikonverentsil ülevaate riigis toimuvast</h1>
+        </div>
+        <div class="uudis9">
+            <img class="medium-image" src="https://api.delfi.ee/media-api-image-cropper/v1/7bf1d270-7581-11ed-9cac-31655ba2167a.jpg?noup&w=882&h=496&fx=0.495973&fy=0.315652" alt="#">
+            <h1 class="medium-text">Eestit ähvardavad elektrikatkestused: kõigepealt kaob elamutest elekter, siis vesi, siis soojus...</h1>
         </div>
     </div>
 </body>
